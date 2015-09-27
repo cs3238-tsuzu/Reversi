@@ -1,0 +1,53 @@
+﻿2015/09/27 18:01:51 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\Program\Reversi\Reversi\Reversi.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>d:\program\reversi\reversi\Board.hpp(35): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\Board.hpp(36): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\Board.hpp(43): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\Board.hpp(68): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\Board.hpp(86): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\Board.hpp(90): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\Board.hpp(94): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\Board.hpp(100): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\Board.hpp(104): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\Board.hpp(138): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\Board.hpp(139): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\Board.hpp(140): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\Board.hpp(143): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\AI.hpp(53): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\AI.hpp(54): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\AI.hpp(51): warning C4189: 'Rows' : ローカル変数が初期化されましたが、参照されていません
+     1>d:\program\reversi\reversi\AI.hpp(52): warning C4189: 'Columns' : ローカル変数が初期化されましたが、参照されていません
+     1>d:\program\reversi\reversi\AI.hpp(73): warning C4244: '引数' : 'const double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\AI.hpp(94): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\AI.hpp(96): warning C4245: '引数' : 'int' から 'unsigned int' に変換しました。signed/unsigned が一致しません。
+     1>d:\program\reversi\reversi\AI.hpp(96): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\AI.hpp(101): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\AI.hpp(103): warning C4245: '引数' : 'int' から 'unsigned int' に変換しました。signed/unsigned が一致しません。
+     1>d:\program\reversi\reversi\AI.hpp(103): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\AI.hpp(113): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\System.hpp(32): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\System.hpp(40): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>Main.cpp(223): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Main.cpp(235): warning C4244: '引数' : 'double' から 's3d::uint32' への変換です。データが失われる可能性があります。
+     1>Main.cpp(250): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Main.cpp(380): warning C4244: '引数' : 'double' から 's3d::uint32' への変換です。データが失われる可能性があります。
+     1>Main.cpp(381): warning C4244: '引数' : 'double' から 's3d::uint32' への変換です。データが失われる可能性があります。
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\memory(1639): error C2259: 'Scene' : 抽象クラスをインスタンス化できません。
+                 次のメンバーが原因です:
+                 'void Scene::Update(void)' : は抽象型です
+                 d:\program\reversi\reversi\System.hpp(15) : 'Scene::Update' の宣言を確認してください。
+                 'void Scene::Render(void)' : は抽象型です
+                 d:\program\reversi\reversi\System.hpp(17) : 'Scene::Render' の宣言を確認してください。
+                 Main.cpp(362) : コンパイルされたクラスの テンプレート のインスタンス化 'std::unique_ptr<Scene,std::default_delete<_Ty>> std::make_unique<Scene,Play>(Play &&)' の参照を確認してください
+                 with
+                 [
+                     _Ty=Scene
+                 ]
+     1>プロジェクト "D:\Program\Reversi\Reversi\Reversi.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:02.61

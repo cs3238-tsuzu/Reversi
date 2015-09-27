@@ -1,0 +1,53 @@
+﻿2015/09/27 22:30:29 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\Program\Reversi\Reversi\Reversi.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>d:\program\reversi\reversi\board.hpp(35): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\board.hpp(36): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\board.hpp(43): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\board.hpp(68): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\board.hpp(86): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\board.hpp(90): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\board.hpp(94): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\board.hpp(100): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\board.hpp(104): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\board.hpp(138): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\board.hpp(139): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\board.hpp(140): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\board.hpp(143): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\ai.hpp(53): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\ai.hpp(54): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\ai.hpp(51): warning C4189: 'Rows' : ローカル変数が初期化されましたが、参照されていません
+     1>d:\program\reversi\reversi\ai.hpp(52): warning C4189: 'Columns' : ローカル変数が初期化されましたが、参照されていません
+     1>d:\program\reversi\reversi\ai.hpp(73): warning C4244: '引数' : 'const double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\ai.hpp(94): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\ai.hpp(96): warning C4245: '引数' : 'int' から 'unsigned int' に変換しました。signed/unsigned が一致しません。
+     1>d:\program\reversi\reversi\ai.hpp(96): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\ai.hpp(101): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\ai.hpp(103): warning C4245: '引数' : 'int' から 'unsigned int' に変換しました。signed/unsigned が一致しません。
+     1>d:\program\reversi\reversi\ai.hpp(103): warning C4244: '引数' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\ai.hpp(113): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\system.hpp(32): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\system.hpp(40): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\program\reversi\reversi\main.cpp(223): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\main.cpp(235): warning C4244: '引数' : 'double' から 's3d::uint32' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\main.cpp(250): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\main.cpp(378): warning C4244: '引数' : 'double' から 's3d::uint32' への変換です。データが失われる可能性があります。
+     1>d:\program\reversi\reversi\main.cpp(379): warning C4244: '引数' : 'double' から 's3d::uint32' への変換です。データが失われる可能性があります。
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(577): error C2280: 'std::unique_ptr<SceneManager,std::default_delete<_Ty>>::unique_ptr(const std::unique_ptr<_Ty,std::default_delete<_Ty>> &)' : 削除された関数を参照しようとしています
+                 with
+                 [
+                     _Ty=SceneManager
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\memory(1486) : 'std::unique_ptr<SceneManager,std::default_delete<_Ty>>::unique_ptr' の宣言を確認してください。
+                 with
+                 [
+                     _Ty=SceneManager
+                 ]
+                 コンパイラでのこの診断により関数 'Scene::Scene(const Scene &)' が生成されました。
+     1>プロジェクト "D:\Program\Reversi\Reversi\Reversi.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:01.86
