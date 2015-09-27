@@ -15,6 +15,12 @@ public:
 	virtual void Update();
 
 	virtual void Render();
+
+	Scene() = default;
+	Scene(const Scene& sc){
+		if (sc.Parent != nullptr)
+			this->Parent = std::make_unique<SceneManager>(*(sc.Parent.get()));
+	}
 };
 
 class SceneManager{
@@ -23,14 +29,20 @@ private:
 	int now = 0;
 public:
 	SceneManager() = default;
-	SceneManager(std::unique_ptr<Scene> FirstScene){
-		StackScene.emplace_back(FirstScene);
+	SceneManager(const SceneManager& sm){
+		this->StackScene.reserve(sm.StackScene.size());
+		for (const auto& ss : sm.StackScene){
+			this->StackScene.emplace_back(std::make_unique<Scene>(*ss));
+		}
+	}
+	SceneManager(const std::unique_ptr<Scene>& FirstScene){
+		StackScene.emplace_back(std::make_unique<Scene>(*FirstScene));
 		StackScene[now]->Parent = std::move(std::make_unique<SceneManager>(*this));
 	}
 
-	void NextAddScene(std::unique_ptr<Scene> AddScene){
+	void NextAddScene(std::unique_ptr<Scene>& AddScene){
 		if (now < StackScene.size()){
-			StackScene.emplace_back(AddScene);
+			StackScene.emplace_back(std::move(AddScene));
 			now++;
 			StackScene[now]->Parent = std::move(std::make_unique<SceneManager>(*this));
 		}
